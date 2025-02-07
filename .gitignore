@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build
+dist
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env*.local
+.env
+.env.development
+.env.test
+.env.production
+
+# System files
+.DS_Store
+*.pem
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Testing
+coverage
+
+# Vercel
+.vercel
+
+# Docker
+*.env
+docker-compose.override.yml
